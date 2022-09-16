@@ -40,7 +40,7 @@ helm install databases databases --dependency-update
 ```sh
 helm install databases databases --dry-run
 ```  
-## **Configuración de grafana **
+## **Configuración de grafana**
 
 Luego de tener instaladas las bases que vamos a utilizar y las herramientas que van a monitorear esa base de datos. Podemos ingresar a grafana.  
 
@@ -54,3 +54,5 @@ Luego de tener instaladas las bases que vamos a utilizar y las herramientas que 
 http://127.0.0.1:8080
 
 3.Escribimos las credenciales, por defecto será el usuario "admin" y la contraseña será "tarea1", esta contraseña está configurada en el values.yml del helm "monitoring".
+
+![N|Solid](https://i.pinimg.com/564x/59/67/f5/5967f5e69af4fd8c478b30827091462a.jpg)
