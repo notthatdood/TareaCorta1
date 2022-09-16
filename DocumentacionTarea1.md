@@ -2,7 +2,7 @@
 
 ## **Instalación**
 
-**Para Windows**
+**Para Windows**  
 Antes de ejecutar cualquier comando se debe tener instalado en el equipo:
 * Helm chard
 * Docker desktop
