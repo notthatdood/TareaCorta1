@@ -153,6 +153,9 @@ postgresql:
     enabled: true
   auth:
     database: test-db
+    postgresPassword: "password"
+    username: "user"
+    password: "password"
   metrics:
     enabled: true
     serviceMonitor:
