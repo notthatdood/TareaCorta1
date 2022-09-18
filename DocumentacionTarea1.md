@@ -21,7 +21,7 @@ En la configuración de este helm chart solo están habilitadas prometheus y gra
 ```sh
 ./createEverything.ps1
 ```  
-**Con Minikube**  
+**Sin Minikube**  
 
 1.Desde línea de comandos se debe ejecutar:
 ```sh
@@ -29,7 +29,7 @@ helm install monitoring monitoring --dependency-build
 ```  
 2.Luego descargar todas las dependencias de las herramientas a utilizar
 ```sh
-helm install monitoring monitoring --dependency-update
+helm install monitoring monitoring --dry-run
 ```  
 2.Actualizamos las dependencias:  
 ```sh
@@ -112,11 +112,15 @@ Dashboard con el ID 9628.
   
 **PostgreSQL**  
 
-Añadimos el user y pasword para abrir postgresql y habilitamos el service monitor para las métricas.
+Añadimos el user y password para abrir postgresql y habilitamos el service monitor para las métricas.
 
 ![N|Solid](https://i.pinimg.com/originals/64/e7/34/64e7341ee9bf014d6b53b067e614c6d2.jpg)
   
   
 ## **Conclusiones**  
   
-## **Recomendaciones**
+## **Recomendaciones**  
+
+* Como recomendación, para importar un dashboard se debe crear primero el data sources de prometheus. Esto se debe a que en el dashboard hay indicarle prometheus como data source.  
+
+* Como segunda recomendación, es ideal que se habiliten solo las bases de datos que se vayan a utilizar para que no consuma muchos recursos y que corra más rápido.
