@@ -119,4 +119,8 @@ Añadimos el user y pasword para abrir postgresql y habilitamos el service monit
   
 ## **Conclusiones**  
   
-## **Recomendaciones**
+## **Recomendaciones**  
+
+* Como recomendación, para importar un dashboard se debe crear primero el data sources de prometheus. Esto se debe a que en el dashboard hay indicarle prometheus como data source.  
+
+* Como segunda recomendación, es ideal que se habiliten solo las bases de datos que se vayan a utilizar para que no consuma muchos recursos y que corra más rápido.
