@@ -1,3 +1,9 @@
+enableECKOperator: true
+enableMariaDB: true
+enableMongoDB: true
+enableMySQL: true
+enablePostgreSQL: true
+
 # Default values for databases.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
