@@ -93,7 +93,7 @@ Dashboard con el ID 2583.
 
 Dashboard con el ID 2322.  
 
-![N|Solid](https://i.pinimg.com/originals/f6/ab/21/f6ab215a41d38dd6554a3ed3ac1e7857.jpg) 
+![Screenshot](https://i.pinimg.com/originals/f6/ab/21/f6ab215a41d38dd6554a3ed3ac1e7857.jpg) 
   
 **PostgreSQL**  
 
