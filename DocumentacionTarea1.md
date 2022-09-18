@@ -116,7 +116,12 @@ Añadimos el user y password para abrir postgresql y habilitamos el service moni
 
 ![N|Solid](https://i.pinimg.com/originals/64/e7/34/64e7341ee9bf014d6b53b067e614c6d2.jpg)
   
-  
+##**Pruebas de Gatling**
+
+Para realizar las pruebas en Gatling se intentó inicialmente utilizar Flask como intermediario entre las bases de datos y Gatling. Se siguió la guía de la documentación del sitio web oficial de Flask (Flask, 2010) para montar la aplicación de Flask. Se logró montar la aplicación de Flask con normalidad y siguiendo la guía fue muy sencillo, sin embargo no se logró conectar con Gatling para hacer las pruebas de rendimiento a las bases de datos.
+
+
+ 
 ## **Conclusiones**  
   
 ## **Recomendaciones**  
@@ -124,3 +129,7 @@ Añadimos el user y password para abrir postgresql y habilitamos el service moni
 * Como recomendación, para importar un dashboard se debe crear primero el data sources de prometheus. Esto se debe a que en el dashboard hay indicarle prometheus como data source.  
 
 * Como segunda recomendación, es ideal que se habiliten solo las bases de datos que se vayan a utilizar para que no consuma muchos recursos y que corra más rápido.
+
+## **Referencias**
+
+Flask, . (2010). Application setup. Application Setup - Flask Documentation (2.2.x). Retrieved September 18, 2022, from https://flask.palletsprojects.com/en/2.2.x/tutorial/factory/ 
