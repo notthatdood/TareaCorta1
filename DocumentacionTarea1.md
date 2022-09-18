@@ -29,7 +29,7 @@ helm install monitoring monitoring --dependency-build
 ```  
 2.Luego descargar todas las dependencias de las herramientas a utilizar
 ```sh
-helm install monitoring monitoring --dependency-update
+helm install monitoring monitoring --dry-run
 ```  
 2.Actualizamos las dependencias:  
 ```sh
