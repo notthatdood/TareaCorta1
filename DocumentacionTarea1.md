@@ -4,10 +4,10 @@
 
   
 Antes de ejecutar cualquier comando se debe tener instalado en el equipo:
-* Helm
-* Docker desktop con kubernetes habilitado
-* Minikube
-* Powershell
+1. Docker desktop con kubernetes habilitado
+2. Helm
+3. Minikube
+4. Powershell
 
 **Con Minikube**  
 
