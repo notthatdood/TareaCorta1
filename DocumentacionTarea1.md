@@ -106,13 +106,20 @@ Dashboard con el ID 9628.
 
 **MariaDB**  
 
+Añadimos el user y password para abrir y que funciones MariaDB y habilitamos el service monitor para las métricas.
+
 [![maria-DBconfiguration.png](https://i.postimg.cc/SsFfgxVC/maria-DBconfiguration.png)](https://postimg.cc/7C9z6DFZ)
   
 **MongoDB**  
 
+Añadimos el user y password para abrir y que funciones MongoDB y habilitamos el service monitor para las métricas.
+
 [![mongo-DBconfiguration.png](https://i.postimg.cc/mDYNJW6q/mongo-DBconfiguration.png)](https://postimg.cc/N90H2St7)
   
 **Elasticsearch**  
+
+Se deben de añadir nodos (minimo un nodo) en el area de master y se tiene que crear 3 replicas como minimo para que pueda funcionar Elasticsearch.
+Habilitamos el service monitor para las métricas.
 
 [![db3.png](https://i.postimg.cc/3wDZjvj3/db3.png)](https://postimg.cc/nsp7pMwW)
   
@@ -140,6 +147,9 @@ Después de grabar las acciones, se seleccióna la opción de guardar los datos 
 La prueba con el sitio web demo y sin conecciones se realizaron con éxito, sin embargo no se logró enlazar Gatling directamente con los pods de las bases de datos.
  
 ## **Conclusiones**  
+
+La Tarea fue bastante interesante para aprender y saber configurar e intalar los tipos base de datos SQL y NoSQL mediante kubernetes. Fue interesante aprender instalar el docker desktop, helm, minikube y poder activar los kubernetes, aunque todo fue instalacion y seguir los pasos fue una leccion para otros proyectos. Al igual fue con las instalacion de Prometheus y Grafana, ninguno esperaba que fuera complicado hacer las configuraciones para que las app funcionaran y es algo que el equipo aprendio.
+Fue interesante hacer los benchmarks para cada tipo de base de datos SQL y NoSQL y se aprendio que para cada base de datos mediante kubernetes se tiene que modelar dirente para que pueda funcionar.
   
 ## **Recomendaciones**  
 
