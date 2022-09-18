@@ -96,6 +96,11 @@ elasticsearch:
     enabled: true
     serviceMonitor:
       enabled: true
+  master:
+    minimum_master_nodes: 1
+  data:
+    replicaCount: 3
+  
 
 mariadb:
   volumePermissions:
