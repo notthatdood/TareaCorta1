@@ -2,12 +2,14 @@
 
 ## **Instalación**
 
-**Para Windows**  
+  
 Antes de ejecutar cualquier comando se debe tener instalado en el equipo:
 * Helm
 * Docker desktop con kubernetes habilitado
 * Minikube
 * Powershell
+
+**Con Minikube**  
 
 Se debe clonar el repo de github: https://github.com/notthatdood/TareaCorta1.
 Luego se abre powershell y se hace un change directory a donde se haya colocado este repo.
@@ -18,6 +20,24 @@ En la configuración de este helm chart solo están habilitadas prometheus y gra
 1.Desde línea de comandos en Windows se debe ejecutar:
 ```sh
 ./createEverything.ps1
+```  
+**Con Minikube**  
+
+1.Desde línea de comandos se debe ejecutar:
+```sh
+helm install monitoring monitoring --dependency-build
+```  
+2.Luego descargar todas las dependencias de las herramientas a utilizar
+```sh
+helm install monitoring monitoring --dependency-update
+```  
+2.Actualizamos las dependencias:  
+```sh
+helm install database database --dependency-build
+```  
+3.Para instalar las bases de datos se debe ejecutar el siguiente comando:  
+```sh
+helm install database database --dry-run
 ```
 ## **Configuración de grafana**
 
@@ -53,17 +73,33 @@ http://127.0.0.1:8080
 
 **Añadiendo los dashboard de las bases de datos**  
   
-Nos vamos a la pestaña de general de grafana e importamos un dashboard. Se ejecuta la misma acción cuando se desee añadir uno nuevo.
+Nos vamos a la pestaña de general de grafana e importamos un dashboard. Se ejecuta la misma acción cuando se desee añadir uno nuevo.  
+
 ![N|Solid](https://i.pinimg.com/originals/b4/4d/3d/b44d3dc006c9993d9d1eb4ec2872aa48.jpg)  
 
 **MariaDB**  
+
+Dashboard con el ID 13106.  
+
+![N|Solid](https://i.pinimg.com/originals/b0/cb/e6/b0cbe6abc78b767ce2433ac20562d5ba.jpg)
   
 **MongoDB**  
+
+Dashboard con el ID 2583.  
+
+![N|Solid](https://i.pinimg.com/originals/21/e5/5d/21e55d678eff510fb90fe275a6fd2a0e.jpg)
   
 **Elasticsearch**  
+
+Dashboard con el ID 2322.  
+
+![N|Solid](https://i.pinimg.com/originals/f6/ab/21/f6ab215a41d38dd6554a3ed3ac1e7857.jpg) 
   
 **PostgreSQL**  
 
+Dashboard con el ID 9628.  
+
+![N|Solid](https://i.pinimg.com/originals/e8/33/b3/e833b391b4db639ac3297eab44d5107c.jpg)
 
 
 ## **Configuración de las herramientas**  
@@ -75,8 +111,11 @@ Nos vamos a la pestaña de general de grafana e importamos un dashboard. Se ejec
 **Elasticsearch**  
   
 **PostgreSQL**  
+
+Añadimos el user y pasword para abrir postgresql y habilitamos el service monitor para las métricas.
+
+![N|Solid](https://i.pinimg.com/originals/64/e7/34/64e7341ee9bf014d6b53b067e614c6d2.jpg)
   
-**Grafana**  
   
 ## **Conclusiones**  
   
