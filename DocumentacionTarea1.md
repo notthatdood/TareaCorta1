@@ -105,12 +105,16 @@ Dashboard con el ID 9628.
 ## **Configuración de las herramientas**  
 
 **MariaDB**  
+
+[![maria-DBconfiguration.png](https://i.postimg.cc/SsFfgxVC/maria-DBconfiguration.png)](https://postimg.cc/7C9z6DFZ)
   
 **MongoDB**  
+
+[![mongo-DBconfiguration.png](https://i.postimg.cc/mDYNJW6q/mongo-DBconfiguration.png)](https://postimg.cc/N90H2St7)
   
 **Elasticsearch**  
 
-![N|Solid](https://github.com/notthatdood/TareaCorta1/tree/main/images/ElasticsearchConfiguration.png)
+[![db3.png](https://i.postimg.cc/3wDZjvj3/db3.png)](https://postimg.cc/nsp7pMwW)
   
 **PostgreSQL**  
 
