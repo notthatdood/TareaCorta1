@@ -108,11 +108,7 @@ Dashboard con el ID 9628.
   
 **MongoDB**  
   
-**Elasticsearch**
-
-Se configura la cantidad mínima de nodos máster en 1 y la cantidad de nodos data en 3.  La cantidad de nodos máster se conserva en 2 para mayor resiliencia y disponibilidad.
-
-![](images/ElasticsearchConfiguration.PNG)
+**Elasticsearch**  
   
 **PostgreSQL**  
 
@@ -120,7 +116,7 @@ Añadimos el user y password para abrir postgresql y habilitamos el service moni
 
 ![N|Solid](https://i.pinimg.com/originals/64/e7/34/64e7341ee9bf014d6b53b067e614c6d2.jpg)
   
-##**Pruebas de Gatling**
+## **Pruebas de Gatling**
 
 Para realizar las pruebas en Gatling se intentó inicialmente utilizar Flask como intermediario entre las bases de datos y Gatling. Se siguió la guía de la documentación del sitio web oficial de Flask (Flask, 2010) para montar la aplicación de Flask. Se logró montar la aplicación de Flask con normalidad y siguiendo la guía fue muy sencillo, sin embargo no se logró conectar con Gatling para hacer las pruebas de rendimiento a las bases de datos.
 
