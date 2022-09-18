@@ -141,8 +141,13 @@ La prueba con el sitio web demo y sin conecciones se realizaron con éxito, sin 
 
 * Como segunda recomendación, es ideal que se habiliten solo las bases de datos que se vayan a utilizar para que no consuma muchos recursos y que corra más rápido.
 
+* Otra recomendacion seria, lo mas accesible y comodo para trabajar es configurar la terminal de linux dentro del PowerShell como extension, aunque se puede trabajar desde la misma terminal de ubuntu a la hora de correr comandos y scripts es mas agradable trabajarlo todo desde el PowerShell ademas la terminal de ubuntu tiene algunos fallos y no te deja correrlo.
+
 ## **Referencias**
 
 Flask, . (2010). Application setup. Application Setup - Flask Documentation (2.2.x). Retrieved September 18, 2022, from https://flask.palletsprojects.com/en/2.2.x/tutorial/factory/
 
 YouTube. (2022). Gatling Beginner Tutorial 1 | Load Testing, Introduction, Download, Setup |. YouTube. Retrieved September 16, 2022, from https://www.youtube.com/watch?v=CPBWawzVeTo&amp;t=6s. 
+
+Loewen, C. (2022, 12 agosto). Advanced settings configuration in WSL. Microsoft Learn. Recuperado 18 de septiembre de 2022, de 
+https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configure-global-options-with-wslconfig
