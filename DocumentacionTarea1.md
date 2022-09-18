@@ -108,7 +108,11 @@ Dashboard con el ID 9628.
   
 **MongoDB**  
   
-**Elasticsearch**  
+**Elasticsearch**
+
+Se configura la cantidad mínima de nodos máster en 1 y la cantidad de nodos data en 3.  La cantidad de nodos máster se conserva en 2 para mayor resiliencia y disponibilidad.
+
+![](images/ElasticsearchConfiguration.PNG)
   
 **PostgreSQL**  
 
