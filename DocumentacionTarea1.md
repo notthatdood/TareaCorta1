@@ -124,7 +124,18 @@ Añadimos el user y password para abrir postgresql y habilitamos el service moni
 
 Para realizar las pruebas en Gatling se intentó inicialmente utilizar Flask como intermediario entre las bases de datos y Gatling. Se siguió la guía de la documentación del sitio web oficial de Flask (Flask, 2010) para montar la aplicación de Flask. Se logró montar la aplicación de Flask con normalidad y siguiendo la guía fue muy sencillo, sin embargo no se logró conectar con Gatling para hacer las pruebas de rendimiento a las bases de datos.
 
+Al no poder utilizar Flask como parte de la implementación de gatling se intentó usar Gatling directamente descargando el Gatling Bundle de su página oficial. Se siguió la guía del video publicado por Automatation Step By Step (Pal, 2022).
+Antes de empezar al proyecto de Gatling se necesita lo siguiente:
 
+- Tener instalado el JDK.
+- Descargar el Gatling Bundle
+- Instalar el lenguaje de programación Scala.
+- Descargar Maven para crear el proyecto.
+
+A la hora de realizar pruebas de gatling por si solo, se utilizó el sitio web demo de Orange HRM (https://opensource-demo.orangehrmlive.com/web/index.php/auth/login). Al estar dentro de este sitio web, se presiona F12 y se va a la sección que dice "Red". En la sección de Red se presiona el botón de grabar y se comienzan a ingresar datos en la página demo.
+Después de grabar las acciones, se seleccióna la opción de guardar los datos como un archivo .HAR y este se ingresa a la interfaz que se despliega al correr el archivo recorder.bat del Gatling Bundle. Al ingresar el archivo gatling genera un link en el que se pueden observar los gráficos de las pruebas realizadas, además de crear un script para correr las pruebas el cual se puede editar también para alterar la cantidad de usuarios que "ingresarían a la base" en la simulación de Gatling.
+
+La prueba con el sitio web demo y sin conecciones se realizaron con éxito, sin embargo no se logró enlazar Gatling directamente con los pods de las bases de datos.
  
 ## **Conclusiones**  
   
@@ -136,4 +147,6 @@ Para realizar las pruebas en Gatling se intentó inicialmente utilizar Flask com
 
 ## **Referencias**
 
-Flask, . (2010). Application setup. Application Setup - Flask Documentation (2.2.x). Retrieved September 18, 2022, from https://flask.palletsprojects.com/en/2.2.x/tutorial/factory/ 
+Flask, . (2010). Application setup. Application Setup - Flask Documentation (2.2.x). Retrieved September 18, 2022, from https://flask.palletsprojects.com/en/2.2.x/tutorial/factory/
+
+YouTube. (2022). Gatling Beginner Tutorial 1 | Load Testing, Introduction, Download, Setup |. YouTube. Retrieved September 16, 2022, from https://www.youtube.com/watch?v=CPBWawzVeTo&amp;t=6s. 
