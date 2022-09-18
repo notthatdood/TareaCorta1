@@ -46,6 +46,23 @@ http://127.0.0.1:8080
 
 ![N|Solid](https://i.pinimg.com/originals/04/bc/e6/04bce615e432a85d4e588fe5bf958ebc.jpg)  
 
+5.Indicamos el url de prometheus el cual será: http://monitoring-kube-prometheus-prometheus:9090  y guardamos los cambios. Debe aparecer un mensaje en donde indique que el Data source está funcionando.
+
+![N|Solid](https://i.pinimg.com/originals/81/aa/d7/81aad70ee0eaf0518108d06a3712dbf6.jpg)  
+![N|Solid](https://i.pinimg.com/originals/ee/5a/ef/ee5aefb88578c083f766c07441381145.jpg)  
+
+**Añadiendo los dashboard de las bases de datos** 
+
+**MariaDB**  
+  
+**MongoDB**  
+  
+**Elasticsearch**  
+  
+**PostgreSQL**  
+  
+**Grafana**
+
 ## **Configuración de las herramientas**  
 
 **MariaDB**  
