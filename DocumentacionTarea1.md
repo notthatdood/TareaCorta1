@@ -110,7 +110,7 @@ Dashboard con el ID 9628.
   
 **Elasticsearch**  
 
-![alt text](https://github.com/notthatdood/TareaCorta1/tree/main/images/ElasticsearchConfiguration.png)
+![N|Solid](https://github.com/notthatdood/TareaCorta1/tree/main/images/ElasticsearchConfiguration.png)
   
 **PostgreSQL**  
 
