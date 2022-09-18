@@ -112,7 +112,7 @@ Dashboard con el ID 9628.
   
 **PostgreSQL**  
 
-Añadimos el user y pasword para abrir postgresql y habilitamos el service monitor para las métricas.
+Añadimos el user y password para abrir postgresql y habilitamos el service monitor para las métricas.
 
 ![N|Solid](https://i.pinimg.com/originals/64/e7/34/64e7341ee9bf014d6b53b067e614c6d2.jpg)
   
