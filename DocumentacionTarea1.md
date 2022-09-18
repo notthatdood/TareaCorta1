@@ -21,7 +21,7 @@ En la configuración de este helm chart solo están habilitadas prometheus y gra
 ```sh
 ./createEverything.ps1
 ```  
-**Con Minikube**  
+**Sin Minikube**  
 
 1.Desde línea de comandos se debe ejecutar:
 ```sh
