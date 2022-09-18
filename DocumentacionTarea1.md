@@ -51,7 +51,10 @@ http://127.0.0.1:8080
 ![N|Solid](https://i.pinimg.com/originals/81/aa/d7/81aad70ee0eaf0518108d06a3712dbf6.jpg)  
 ![N|Solid](https://i.pinimg.com/originals/ee/5a/ef/ee5aefb88578c083f766c07441381145.jpg)  
 
-**Añadiendo los dashboard de las bases de datos** 
+**Añadiendo los dashboard de las bases de datos**  
+  
+Nos vamos a la pestaña de general de grafana e importamos un dashboard. Se ejecuta la misma acción cuando se desee añadir uno nuevo.
+![N|Solid](https://i.pinimg.com/originals/b4/4d/3d/b44d3dc006c9993d9d1eb4ec2872aa48.jpg)  
 
 **MariaDB**  
   
@@ -60,8 +63,8 @@ http://127.0.0.1:8080
 **Elasticsearch**  
   
 **PostgreSQL**  
-  
-**Grafana**
+
+
 
 ## **Configuración de las herramientas**  
 
