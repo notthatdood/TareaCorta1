@@ -65,4 +65,20 @@ http://127.0.0.1:8080
 
 ![N|Solid](https://i.pinimg.com/originals/ed/bb/a7/edbba713ff4d5a96e3bf25258d59cb68.jpg)  
 
-![N|Solid](https://i.pinimg.com/originals/04/bc/e6/04bce615e432a85d4e588fe5bf958ebc.jpg) 
+![N|Solid](https://i.pinimg.com/originals/04/bc/e6/04bce615e432a85d4e588fe5bf958ebc.jpg)  
+
+## **Configuración de las herramientas**  
+
+**MariaDB**  
+  
+**MongoDB**  
+  
+**Elasticsearch**  
+  
+**PostgreSQL**  
+  
+**Grafana**  
+  
+**Conclusiones**  
+  
+**Recomendaciones**
